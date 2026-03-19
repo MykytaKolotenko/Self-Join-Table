@@ -3,3 +3,12 @@ obj/
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
+
+@"
+**/packages/
+**/packages.lock.json
+*.nupkg
+.idea/
+.vs/
+*.user
+"@ | Out-File -FilePath .gitignore -Encoding utf8
